@@ -1,4 +1,4 @@
 "scripts": {
-  "build": "nuxt build",
-  "start": "node .output/server/index.mjs"
+  "build": "vue-cli-service build",
+  "start": "serve -s dist"
 }
